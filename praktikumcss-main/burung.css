@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #f0f8ff;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.gambar img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.isi {
+    padding: 20px;
+}
+
+.jawa {
+    font-weight: bold;
+    color: green;
+}
+
+h3, h4 {
+    color: #007acc;
+    margin-left: 10px;
+}
+
+.koleksi img {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px;
+}
+
+.promo {
+    background-color: #ffe0b2;
+    padding: 20px;
+    text-align: center;
+}
+
+#Wa {
+    font-weight: bold;
+    color: #d50000;
+}
+ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+.koleksi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.koleksi img {
+    width: calc(50% - 10px);
+    max-width: 200px;
+}
+.berternak {
+    margin-left: 20px
+}
+.gambar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; 
+}
