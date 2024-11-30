@@ -1,0 +1,36 @@
+1. General Styles
+font-family: Mengatur jenis font menjadi Arial atau font sans-serif lainnya jika Arial tidak tersedia.
+line-height: Mengatur tinggi baris untuk meningkatkan keterbacaan teks.
+color: Mengatur warna teks menjadi abu-abu gelap (#333).
+
+2. Navbar
+box-shadow: Menambahkan bayangan pada navbar untuk memberikan efek kedalaman.
+.logo img: Mengatur lebar logo menjadi 40px, mengapung ke kiri, dan memberikan margin kanan 20px untuk jarak dari teks.
+css
+
+3. Hero Section
+.foto img: Mengatur gambar di hero section agar lebar 100% dari kontainer.
+.bg-light: Mengatur warna latar belakang menjadi warna terang.
+section.bg-light: Menambahkan latar belakang gradien pada section dengan sudut 135 derajat.
+
+4. Typography
+Mengatur ukuran font dan ketebalan untuk judul utama di hero section.
+
+5. Buttons
+Mengatur gaya tombol dengan latar belakang biru, tanpa border, dan padding. Mengubah warna latar belakang saat di-hover.
+
+6. About Section
+Mengatur ukuran font, lebar maksimum, dan warna teks untuk paragraf di section tentang seminar.
+
+7. Speakers Section
+Mengatur ukuran dan gaya gambar pembicara, serta menambahkan efek zoom dan bayangan saat di-hover.
+
+8. Schedule Section
+Mengatur gaya daftar jadwal seminar dengan latar belakang dan efek hover yang menarik.
+
+9. Footer
+Mengatur gaya footer dengan latar belakang gelap, warna teks putih, dan penataan teks di tengah.
+Menambahkan efek hover pada tautan di footer untuk meningkatkan interaksi pengguna.
+
+10. Media Queries
+Menggunakan media queries untuk mengubah tata letak navbar menjadi kolom pada layar kecil dan mengatur tombol agar lebar 100%.

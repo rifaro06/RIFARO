@@ -1,0 +1,47 @@
+1. Struktur Dasar HTML
+<!DOCTYPE html>: Menyatakan bahwa dokumen ini adalah HTML5.
+<html lang="en">: Elemen root dari dokumen HTML, dengan atribut lang yang menunjukkan bahwa bahasa yang digunakan adalah Inggris.
+<head>: Bagian yang berisi metadata, link ke stylesheet, dan informasi lain yang tidak ditampilkan di halaman.
+
+2. Metadata dan Link Stylesheet
+<link>: Menghubungkan file CSS Bootstrap dan file CSS kustom (styles.css) untuk gaya halaman.
+<title>: Menetapkan judul halaman yang muncul di tab browser.
+<link rel="icon">: Menentukan ikon favicon untuk halaman web.
+
+3. Body dan Navbar
+<body>: Bagian yang berisi konten yang ditampilkan di halaman.
+<nav>: Elemen navigasi yang berisi tautan untuk berpindah antar bagian.
+class="navbar": Menandakan bahwa ini adalah navbar dengan gaya Bootstrap.
+
+4. Tombol Navigasi
+<button>: Tombol yang digunakan untuk mengubah tampilan navbar pada perangkat kecil (responsive).
+<ul>: Daftar tak terurut yang berisi tautan navigasi ke berbagai bagian halaman.
+
+5. Hero Section
+<section>: Menandai bagian terpisah dari konten, dalam hal ini adalah section hero.
+<h1>: Judul utama untuk halaman seminar.
+<p>: Paragraf yang memberikan informasi tambahan.
+<a>: Tautan yang mengarahkan pengguna ke bagian pendaftaran.
+
+6. About Section
+id="about": Memberikan ID pada section untuk navigasi yang lebih mudah.
+<h2>: Judul untuk section tentang seminar.
+<p>: Paragraf yang menjelaskan tujuan seminar.
+
+7. Speakers Section
+<div class="row">: Menggunakan grid Bootstrap untuk mengatur pembicara dalam kolom.
+<img>: Menampilkan gambar pembicara dengan kelas img-fluid untuk responsivitas.
+<h4> dan <p>: Menyediakan nama dan deskripsi untuk setiap pembicara.
+
+8. Schedule Section
+<ul>: Daftar yang menampilkan jadwal seminar dengan waktu dan sesi.
+<li>: Setiap item dalam daftar menunjukkan waktu dan deskripsi sesi.
+
+9. Registration Section
+<form>: Formulir untuk pendaftaran seminar.
+<input>: Kolom untuk nama dan email, dengan atribut required untuk validasi.
+<button>: Tombol untuk mengirimkan formulir.
+
+10. Footer
+<footer>: Bagian bawah halaman yang berisi informasi hak cipta.
+text-center: Kelas Bootstrap untuk menengahkan teks.
